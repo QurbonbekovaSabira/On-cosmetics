@@ -2,6 +2,10 @@ header {
     background: transparent;
     backdrop-filter: blur(2px);
     border-bottom: 0.5px solid rgba(0, 0, 0, 0.20);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 .navbar {
@@ -44,10 +48,12 @@ header {
 
 .heart  {
    color: #fff;
+   cursor: pointer;
 }
 
 .profile{
     color: #fff;
+    cursor: pointer;
 }
 
 .bag {
@@ -55,6 +61,7 @@ header {
     font-size: 16px;
     font-weight: 600;
     line-height: 20px; /* 125% */
+    cursor: pointer;
 }
 
 .active {
