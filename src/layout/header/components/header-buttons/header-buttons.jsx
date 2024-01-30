@@ -1,5 +1,6 @@
 import React from "react";
-import { SearchIcon } from "../../../../assets/iconsearch-icon";
+
+import { SearchIcon } from "../../../../assets/icon/search-icon";
 
 export const HeaderButtons = () => {
   return (
