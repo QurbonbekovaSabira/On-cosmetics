@@ -1,5 +1,6 @@
 import React from "react";
+import ProductsStyle from "./products.module.scss";
 
 export const Products = () => {
-  return <div>Products</div>;
+  return <div>Salomat</div>;
 };
