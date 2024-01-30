@@ -1,0 +1,41 @@
+footer {
+    background: #000;
+    padding-top: 64px;
+}
+
+
+
+
+
+.footer_bottom {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    border-top: 1px solid rgba(255, 255, 255, 0.20);
+}
+
+.footer_text {
+    text-align: center;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.footer_links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer_logo {
+    color: #FFF;
+}
+
+.footer_social__links {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
