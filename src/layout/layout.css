@@ -15,7 +15,7 @@
   color: blueviolet;
 }
 
-.box {
+.header_container {
   display: flex;
   align-items: center;
   justify-content: space-between;
