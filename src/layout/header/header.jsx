@@ -2,7 +2,7 @@ import React from "react";
 import { Logo } from "../../assets/icon/logo";
 import { links } from "./data";
 import { HeaderButtons } from "./components/header-buttons/header-buttons";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import style from './header.module.scss'
 
 export const Header = () => {
@@ -13,9 +13,9 @@ export const Header = () => {
         <ul className={style.navbar}>
           {links.map((item) => (
             <li key={item.path}>
-              <Link className={style.navbar_link} to={item.path}>
+              <NavLink className={style.navbar_link} to={item.path}>
               {item.name}
-            </Link>
+            </NavLink>
             </li>
           ))}
         </ul>
