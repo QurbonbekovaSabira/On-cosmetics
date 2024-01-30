@@ -1,3 +1,9 @@
+header {
+    background: transparent;
+    backdrop-filter: blur(2px);
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.20);
+}
+
 .navbar {
     display: flex;
     align-items: center;
@@ -13,4 +19,45 @@
     line-height: 20px; /* 125% */
     letter-spacing: 0.6px;
     text-decoration: none;
+
+    &:hover {
+        border-bottom: 1px solid #000;
+    }
+}
+
+.buttons_block {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.select_lang {
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px; /* 125% */
+    border: none;
+    outline: none;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+.heart  {
+   color: #fff;
+}
+
+.profile{
+    color: #fff;
+}
+
+.bag {
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px; /* 125% */
+}
+
+.active {
+    border-bottom: 1px solid #000;
+    color: red;
 }
