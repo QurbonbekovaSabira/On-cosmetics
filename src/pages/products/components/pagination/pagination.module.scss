@@ -1,0 +1,30 @@
+
+
+.pagination_item button {
+  background-color: transparent;
+  color: #182f43;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  padding: 5px 15px;
+  border: 1px solid #000;
+  transition: 0.2s;
+
+  &:hover {
+    border: 1px solid transparent;
+    color: #000;
+    transition: 0.3s;
+  }
+}
+
+.pagination_list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 9px;
+  padding-bottom: 40px;
+}
+
+#pagination_next__icon {
+  margin-left: 50px;
+}
