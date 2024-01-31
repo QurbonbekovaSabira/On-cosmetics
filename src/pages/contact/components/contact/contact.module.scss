@@ -23,6 +23,11 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+.contact_form {
+  max-width: 716px;
+  width: 100%;
+}
 .form {
   display: flex;
   gap: 21px;
@@ -46,7 +51,6 @@
 }
 
 .form2__input {
-  max-width: 716px;
   width: 100%;
   border: 0.643px solid #000;
   outline-color: rgb(0, 185, 0);
@@ -64,13 +68,15 @@
   max-width: 716px;
   width: 100%;
   height: 144px;
-  border: 0.643px solid #000;
-  margin-bottom: 20px;
 }
 .form__commit_input {
-  border: none;
+  width: 100%;
+  height: 144px;
+  resize: none;
   padding: 10px 16px;
   outline: none;
+  border: 0.643px solid #000;
+  margin-bottom: 20px;
   ::placeholder {
     color: #000;
     font-size: 12px;
