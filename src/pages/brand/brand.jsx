@@ -1,6 +1,5 @@
 import React from 'react'
 import { Hero } from '../../components/hero';
-import BgImg from "../../assets/img/Rectangle.png"
 import styles from "./brand.module.scss";
 export const Brand = () => {
   return (
