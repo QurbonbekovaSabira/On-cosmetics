@@ -1,0 +1,43 @@
+.main_info {
+  padding-bottom: 123px;
+}
+.main_info_sup_list_item_title {
+  color: #000;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 21.857px;
+  margin-bottom: 16px;
+}
+.main_info_sup_list_item_text {
+  color: #000;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 19.286px;
+}
+.main_info_sup_list_item{
+    margin-bottom: 24px;
+}
+.main_info_sup_list_item_content {
+  max-width: 220px;
+}
+.main_info_sup_list_item {
+  display: flex;
+  align-items: start;
+  gap: 20px;
+}
+.main_info_sup{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    gap: 210px;
+}
+.main_info_sup_img_content{
+    position: relative;
+}
+.main_info_img2{
+    position: absolute;
+    top: 180px;
+    left: -125px;
+}

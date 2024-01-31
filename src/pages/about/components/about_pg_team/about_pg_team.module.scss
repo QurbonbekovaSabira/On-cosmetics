@@ -1,0 +1,37 @@
+.main_team {
+  padding: 64px 0 62px 0;
+}
+.main_team_sup_text_content_title {
+  color: #000;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 36px;
+  margin-bottom: 19px;
+}
+.main_team_sup_text_content_text {
+  color: #000;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 15px;
+}
+.main_team_sup_text_content_btn {
+  cursor: pointer;
+  border: 1px solid #000;
+  color: #000;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16.714px;
+  letter-spacing: 0.411px;
+  padding: 10px 20px 9px 19.5px;
+  background-color: transparent;
+}
+.main_team_sup_text_content{
+    max-width: 324px;
+}
+.main_team_sup{
+    display: flex;
+    align-items: center;
+    gap: 87px;
+    justify-content: center;
+}

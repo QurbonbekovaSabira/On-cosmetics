@@ -1,0 +1,54 @@
+.main_contact {
+  padding-top: 48px;
+  padding-bottom: 52px;
+}
+.main_contact_list_item_link {
+  color: #00f;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-bottom: 25px;
+}
+.main_contact_list_item2_text {
+  color: #000;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-bottom: 16px;
+}
+.main_contact_list_item2_link {
+  color: #00f;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-bottom: 10px;
+}
+.main_contact_list_item2_text2 {
+  color: #000;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-bottom: 6px;
+}
+.main_contact_list_item2_mini_text {
+  color: #000;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: normal;
+}
+.main_contact_list_item,.main_contact_list_item2{
+    display: flex;
+    flex-direction: column;
+}
+.main_contact_list_item2_mini{
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+    gap: 4px;
+}
+.main_contact_list{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    gap: 196px;
+}
