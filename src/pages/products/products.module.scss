@@ -1,0 +1,43 @@
+.product_main {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  column-gap: 30px;
+}
+
+.product_sorting {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 36px;
+  margin-top: 46px;
+}
+
+.sorting_select {
+  padding: 10px 16px;
+  outline: none;
+  cursor: pointer;
+  appearance: none;
+  color: #000;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.411px;
+}
+
+.sorting_select__main {
+  position: relative;
+}
+
+.sorting_select__icon {
+  transform: rotate(180deg);
+  position: absolute;
+  top: 5px;
+  right: 10px;
+}
+
+.product_sorting__title {
+  color: #000;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 11.571px;
+  letter-spacing: 0.09px;
+}

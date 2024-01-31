@@ -1,0 +1,73 @@
+.cards_main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(164px, 1fr));
+  column-gap: 20px;
+  row-gap: 25px;
+  text-align: center;
+}
+
+.cards_item {
+  transition: 0.1s;
+
+  &:hover .cards_review__icons {
+    display: flex;
+  }
+
+  &:hover .cards_img {
+    filter: blur(2px);
+    transition: 0.2s;
+  }
+
+  cursor: pointer;
+}
+
+.cards_review__icons_item {
+  background-color: #fff;
+  border: none;
+  padding: 7px 9px 5px 9px;
+  border-radius: 50%;
+  cursor: pointer;
+  color: #fff;
+  transition: 0.2s;
+
+  &:hover {
+    background-color: #dedada;
+    color: #dedada;
+    transform: scale(1.2);
+    transition: 0.3s;
+  }
+}
+
+.cards_img__main {
+  position: relative;
+}
+
+.cards_review__icons {
+  display: none;
+  align-items: center;
+  column-gap: 10px;
+  position: absolute;
+  top: 40%;
+  right: 10%;
+}
+
+.cards_img {
+  width: 164px;
+  height: 218px;
+}
+
+.cards_title {
+  color: #000;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 19.288px;
+  letter-spacing: 0.411px;
+}
+
+.cards_price {
+  color: #000;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.18px;
+}
