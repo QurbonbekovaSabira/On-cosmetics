@@ -3,9 +3,9 @@ import React from "react";
 export const EyesIcon = () => {
   return (
     <svg
-      width={16}
+      width={18}
       height={16}
-      viewBox="0 0 16 16"
+      viewBox="0 2 15 12"
       fill="currentcolor"
       xmlns="http://www.w3.org/2000/svg"
     >
