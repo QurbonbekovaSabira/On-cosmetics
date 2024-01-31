@@ -10,36 +10,40 @@ export default function ContactUser() {
           We are here to help. Please complete the short form below and we’ll
           respond as soon as possible.
         </p>
-        <form className={style.form}>
-          <input
-            className={style.form_input}
-            placeholder="Default"
-            type="text"
-          />
-          <input
-            className={style.form_input}
-            placeholder="E-mail"
-            type="text"
-          />
-          <input className={style.form_input} placeholder="Phone" type="text" />
-        </form>
-        <div className={style.form2}>
-          <input
-            className={style.form2__input}
-            placeholder="Subject"
-            type="text"
-          />
-        </div>
-        <div className={style.form_commit}>
-          <input
+        <form className={style.contact_form}>
+          <div className={style.form}>
+            <input
+              className={style.form_input}
+              placeholder="Default"
+              type="text"
+            />
+            <input
+              className={style.form_input}
+              placeholder="E-mail"
+              type="text"
+            />
+            <input
+              className={style.form_input}
+              placeholder="Phone"
+              type="text"
+            />
+          </div>
+          <div className={style.form2}>
+            <input
+              className={style.form2__input}
+              placeholder="Subject"
+              type="text"
+            />
+          </div>
+          <textarea
             className={style.form__commit_input}
             placeholder="Message"
-            type="text"
-          />
-        </div>
-        <div className={style.btn_box}>
-          <button className={style.btn}>Send Message</button>
-        </div>
+          ></textarea>
+
+          <div className={style.btn_box}>
+            <button className={style.btn}>Send Message</button>
+          </div>
+        </form>
       </div>
     </div>
   );
