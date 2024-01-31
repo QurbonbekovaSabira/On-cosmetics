@@ -2,6 +2,11 @@ import React from "react";
 import style from './footer.module.scss'
 import { Logo } from "../../assets/icon/logo";
 import { Link } from "react-router-dom";
+import { TwitterIcon } from "../../assets/icon/twitter-icon";
+import { Facebook } from "../../assets/icon/facebook";
+import { YouTubeIcon } from "../../assets/icon/youTube-icon";
+import { TelegramIcon } from "../../assets/icon/telegram-icon";
+import { InstagramLightIcon } from "../../assets/icon/instagramLight-icon";
 
 export const Footer = () => {
   return (
@@ -15,19 +20,19 @@ export const Footer = () => {
               </div>
               <div className={style.footer_social__links}>
                 <a href="" className={style.social_link}>
-
+                  <TwitterIcon/>
                 </a>
                 <a href="" className={style.social_link}>
-
+                  <Facebook/>
                 </a>
                 <a href="" className={style.social_link}>
-
+                  <YouTubeIcon/>
                 </a>
                 <a href="" className={style.social_link}>
-
+                  <TelegramIcon/>
                 </a>
                 <a href="" className={style.social_link}>
-
+                  <InstagramLightIcon/>
                 </a>
               </div>
             </div>
