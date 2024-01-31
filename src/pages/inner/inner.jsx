@@ -1,8 +1,10 @@
-import React from 'react'
-import style from "./index";
+import React from "react";
+import InnerStyle from "./inner.module.scss";
 
 export const Inner = () => {
   return (
-    <div>Inner</div>
+    <div>
+      <h1>Salom</h1>
+    </div>
   )
-}
+};

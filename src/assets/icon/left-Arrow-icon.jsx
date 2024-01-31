@@ -5,14 +5,16 @@ export const LeftArrowIcon = () => {
     <svg
       width={16}
       height={16}
-      viewBox="0 0 16 16"
-      fill="currentcolor"
+      viewBox="5 5 13 13"
+      fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
       <path
-        d="M5.33314 1.06668L12.7998 8.00002L5.33314 14.9333"
-        stroke="black"
-        strokeLinecap="square"
+        d="M10 7L15 12L10 17"
+        stroke="#000000"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   );
