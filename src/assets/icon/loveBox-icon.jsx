@@ -6,7 +6,7 @@ export const LoveBoxIcon = () => {
       width={31}
       height={31}
       viewBox="0 0 31 31"
-      fill="currentcolor"
+      fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
       <g clipPath="url(#clip0_4_771)">

@@ -17,7 +17,10 @@ a{
 body{
   font-family: 'Roboto', sans-serif;
 }
-
+button{
+  border: none;
+  cursor: pointer;
+}
 .container {
   max-width: 1040px;
   margin-left: auto;

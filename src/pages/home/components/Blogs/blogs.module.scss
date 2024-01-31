@@ -1,0 +1,35 @@
+.blogs {
+  padding-top: 64px;
+  padding-bottom: 64px;
+  background-color: #fff;
+  text-align: center;
+}
+.title {
+  color: #000;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 36px;
+  margin-bottom: 40px;
+}
+.cardBox {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.buttonAll {
+  color: #000;
+  text-align: center;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.411px;
+  padding: 10px 20px;
+  border: 0.643px solid #000;
+  background-color: transparent;
+
+}
