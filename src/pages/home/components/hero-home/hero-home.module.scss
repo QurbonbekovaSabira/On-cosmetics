@@ -1,0 +1,53 @@
+.hero {
+  padding-top: 268px;
+  padding-bottom: 372px;
+  background-repeat: no-repeat;
+  background-image: url("../../../../assets/img/Home-heroBg.png");
+  background-position: center;
+  background-size: cover;
+}
+.title {
+  color: #000;
+  text-align: center;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 36.004px;
+  margin-bottom: 12px;
+}
+.text {
+  color: #000;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+.skincareBtn {
+  color: #fff;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.411px;
+  padding: 10px 22px;
+  background-color: #000;
+}
+.shopBtn {
+  color: #000;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.411px;
+  padding: 10px 22px;
+  border: 0.643px solid #000;
+  background-color: transparent;
+}
+.btnBox{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    justify-content: center;
+}
