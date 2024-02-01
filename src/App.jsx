@@ -17,7 +17,7 @@ function App() {
               element={route.component}
             />
           ))}
-        <Route path={`products`} element={<Inner />} />
+        <Route path={'products/:id'} element={<Inner />} />
         </Route>
       </Routes>
     </>

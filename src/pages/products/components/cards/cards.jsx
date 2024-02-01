@@ -2,7 +2,7 @@ import React from "react";
 import { cards } from "./data";
 import CardStyle from "./cards.module.scss";
 import { Pagination } from "../pagination";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 //// icons:
 import { CardHeartIcon } from "../../../../assets/icon/card-heart-icon";
@@ -21,9 +21,9 @@ export const PrCards = () => {
                 <button className={CardStyle.cards_review__icons_item}>
                   <BagIcon />
                 </button>
-                <Link className={CardStyle.cards_review__icons_item}>
-                  <EyesIcon to="" />
-                </Link>
+                <NavLink to={`${item.id}`} className={CardStyle.cards_review__icons_item}>
+                  <EyesIcon />
+                </NavLink>
                 <button className={CardStyle.cards_review__icons_item}>
                   <CardHeartIcon />
                 </button>
